@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/f4d0443427664930b1d0320c1c2ea3a2;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Profile value="DEV"/>
+    <Profile value="PROD"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="" driverClassName="oracle.jdbc.OracleDriver" logAbandoned="true" name="jdbc/TechDayExercito1" password="codexA1*" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="C##CODEX" type="javax.sql.DataSource" url="jdbc:oracle:thin:@20.230.117.185:1521:XE" username="C##CODEX"/>
+</Context>
